@@ -49,7 +49,7 @@ namespace Földrajz
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(305, 100);
+            this.dataGridView1.Location = new System.Drawing.Point(305, 132);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -108,9 +108,9 @@ namespace Földrajz
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(563, 50);
+            this.button8.Location = new System.Drawing.Point(541, 50);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 44);
+            this.button8.Size = new System.Drawing.Size(89, 44);
             this.button8.TabIndex = 21;
             this.button8.Text = "Feladat 32";
             this.button8.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@ namespace Földrajz
             // 
             this.button7.Location = new System.Drawing.Point(428, 50);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 44);
+            this.button7.Size = new System.Drawing.Size(91, 44);
             this.button7.TabIndex = 20;
             this.button7.Text = "Feladat 31";
             this.button7.UseVisualStyleBackColor = true;

@@ -84,12 +84,12 @@ namespace Földrajz
 
         private void button11_Click(object sender, EventArgs e)
         {
-            Megoldas("SELECT valtopenz FROM orszagok WHERE valtopenz NOT LIKE '100 %''");
+            Megoldas("SELECT valtopenz FROM orszagok WHERE valtopenz NOT LIKE '100 %'");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            Megoldas("SELECT COUNT(id) FROM orszagokWHERE terulet < (SELECT terulet FROM orszagok WHERE orszag LIKE 'Magyarország')");
+            Megoldas("SELECT COUNT(id) FROM orszagok WHERE terulet < (SELECT terulet FROM orszagok WHERE orszag LIKE 'Magyarország')");
         }
 
         private void button13_Click(object sender, EventArgs e)
